@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="box">
+
+  </div>
+  <div class="box">
+  <table class="table m-5">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Departamento</th>
+      <th scope="col">Capital</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let dep of departamentoscol; let i=index ">
+      <th scope="row">{{i+1}}</th>
+      <td>{{dep.nombre}}</td>
+      <td>{{dep.capital}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="box">
+
+</div>
+</div>

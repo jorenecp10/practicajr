@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar/navbar.component';
 import { CalenderComponent } from './calender/calender.component';
 import { MapapaisComponent } from './mapapais/mapapais.component';
 import { CiudadesComponent } from './ciudades/ciudades.component';
+import { DepartamentosComponent } from './departamentos/departamentos.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { CiudadesComponent } from './ciudades/ciudades.component';
     NavbarComponent,
     CalenderComponent,
     MapapaisComponent,
-    CiudadesComponent
+    CiudadesComponent,
+    DepartamentosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

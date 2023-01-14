@@ -7,7 +7,7 @@ export const CIUDADES:Ciudad[]=
     "habitantes":40000,
     "img":"assets/santamarta.jpg"
     },
-    { 
+    {
         "nombre":"Bogota",
         "habitantes":80000,
         "img":"assets/bogota.jpg"
@@ -20,6 +20,14 @@ export const CIUDADES:Ciudad[]=
         "nombre":"Cali",
         "habitantes":50000,
         "img":"assets/cali.jpg"
-    } 
+    },{
+      "nombre":"Barranquilla",
+      "habitantes":55000,
+      "img":"assets/barranquilla.jpeg"
+  },{
+    "nombre":"Cartagena",
+    "habitantes":45000,
+    "img":"assets/cartagena.jpg"
+}
 
 ]
